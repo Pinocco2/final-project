@@ -1,0 +1,236 @@
+@media (max-width: 1024px) {
+  .modal {
+    &__content {
+      width: 750px;
+      height: 950px;
+      margin: 180px auto 0;
+      border-top-left-radius: 300px;
+      border-bottom-right-radius: 300px;
+    }
+
+    &__main {
+      flex-direction: column;
+    }
+
+    &__left {
+      flex: 0 0 auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__artist-image {
+      width: 100%;
+      max-width: 360px;
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .modal {
+    &__content {
+      width: 595px;
+      max-height: 831px;
+      margin: 161px auto 0;
+      border-top-left-radius: 300px;
+      border-bottom-right-radius: 300px;
+    }
+
+    img {
+      margin-top: -10px;
+    }
+
+    &__artist-image {
+      width: 233px;
+      height: 416px;
+      margin-left: -280px;
+    }
+
+    p {
+      width: 265px;
+    }
+
+    &__info,
+    &__when,
+    &__where,
+    &__who,
+    &__prices {
+      h2, h3 {
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        padding-bottom: 5px;
+      }
+    }
+
+    &__buy-ticket {
+      margin-bottom: 20px;
+    }
+
+    &__price-option p {
+
+    }
+
+    &__right {
+      margin-left: 300px;
+      margin-top: -430px;
+    }
+  }
+}
+
+@media (max-width: 590px) {
+  .header {
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__box {
+      width: 100%;
+      max-width: 270px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__input {
+      margin-bottom: 25px;
+    }
+
+    &__title {
+      margin: 0 auto;
+      font-size: 18px;
+      padding-top: 78px;
+      width: 220px;
+      padding-bottom: 25px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .modal {
+    &__content {
+      width: 400px;
+      height: 870px;
+      margin: 300px auto 0;
+      border-top-left-radius: 200px;
+      border-bottom-right-radius: 200px;
+    }
+
+    &__artist-image {
+      max-width: 250px;
+    }
+
+    &__logo img {
+      width: 100px;
+      height: 100px;
+    }
+
+    &__buy-ticket {
+      width: 120px;
+      height: 35px;
+      font-size: 12px;
+    }
+
+    &__more-author {
+      width: 200px;
+      height: 35px;
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .modal {
+    &__content {
+      width: 272px;
+      height: 915px;
+      margin: 414px auto 0;
+      border-top-left-radius: 150px;
+      border-bottom-right-radius: 150px;
+    }
+
+    &__artist-image {
+      max-width: 200px;
+    }
+
+    &__logo img {
+      width: 80px;
+      height: 80px;
+    }
+
+    &__buy-ticket {
+      width: 100px;
+      height: 30px;
+      font-size: 10px;
+    }
+
+    &__more-author {
+      width: 180px;
+      height: 30px;
+      font-size: 10px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .events {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+    padding-left: 25px;
+    padding-right: 15px;
+
+    &__container {
+      margin-bottom: 40px;
+    }
+
+    &__boom-box {
+      width: 128px;
+    }
+
+    &__boom-box-title {
+      font-size: 14px;
+    }
+
+    &__boom-box-data {
+      font-size: 14px;
+    }
+
+    &__boom-box-where {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .header {
+    &__logo {
+      width: 180px;
+      height: 151px;
+    }
+
+    &__title {
+      margin: 0 auto;
+      font-size: 30px;
+    }
+  }
+
+  .events {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 27px;
+    max-width: 610px;
+  }
+}
+
+@media (max-width: 690px) {
+  .header {
+    &__logo {
+      width: 106px;
+      height: 90px;
+    }
+  }
+}
