@@ -26,6 +26,26 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .header {
+    &__logo {
+      width: 180px;
+      height: 151px;
+    }
+
+    &__title {
+      margin: 0 auto;
+      font-size: 30px;
+    }
+  }
+
+  .events {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 27px;
+    max-width: 610px;
+  }
+}
+
 @media (max-width: 768px) {
   .modal {
     &__content {
@@ -55,12 +75,11 @@
     &__where,
     &__who,
     &__prices {
-      h2, h3 {
-        font-family: Montserrat;
+      h2,
+      h3 {
         font-weight: 600;
         font-size: 20px;
         line-height: 100%;
-        letter-spacing: 0%;
         padding-bottom: 5px;
       }
     }
@@ -69,13 +88,18 @@
       margin-bottom: 20px;
     }
 
-    &__price-option p {
-
-    }
-
     &__right {
       margin-left: 300px;
       margin-top: -430px;
+    }
+  }
+}
+
+@media (max-width: 690px) {
+  .header {
+    &__logo {
+      width: 106px;
+      height: 90px;
     }
   }
 }
@@ -144,39 +168,6 @@
   }
 }
 
-@media (max-width: 320px) {
-  .modal {
-    &__content {
-      width: 272px;
-      height: 915px;
-      margin: 414px auto 0;
-      border-top-left-radius: 150px;
-      border-bottom-right-radius: 150px;
-    }
-
-    &__artist-image {
-      max-width: 200px;
-    }
-
-    &__logo img {
-      width: 80px;
-      height: 80px;
-    }
-
-    &__buy-ticket {
-      width: 100px;
-      height: 30px;
-      font-size: 10px;
-    }
-
-    &__more-author {
-      width: 180px;
-      height: 30px;
-      font-size: 10px;
-    }
-  }
-}
-
 @media (max-width: 400px) {
   .events {
     grid-template-columns: repeat(2, 1fr);
@@ -206,31 +197,35 @@
   }
 }
 
-@media (max-width: 1000px) {
-  .header {
-    &__logo {
+@media (max-width: 320px) {
+  .modal {
+    &__content {
+      width: 272px;
+      height: 915px;
+      margin: 414px auto 0;
+      border-top-left-radius: 150px;
+      border-bottom-right-radius: 150px;
+    }
+
+    &__artist-image {
+      max-width: 200px;
+    }
+
+    &__logo img {
+      width: 80px;
+      height: 80px;
+    }
+
+    &__buy-ticket {
+      width: 100px;
+      height: 30px;
+      font-size: 10px;
+    }
+
+    &__more-author {
       width: 180px;
-      height: 151px;
-    }
-
-    &__title {
-      margin: 0 auto;
-      font-size: 30px;
-    }
-  }
-
-  .events {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 27px;
-    max-width: 610px;
-  }
-}
-
-@media (max-width: 690px) {
-  .header {
-    &__logo {
-      width: 106px;
-      height: 90px;
+      height: 30px;
+      font-size: 10px;
     }
   }
 }

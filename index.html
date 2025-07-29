@@ -1,266 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final_project</title>
-    <link rel="stylesheet" href="./css/styles.css">
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Final_project</title>
+<link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header class="header">
-        <img class="header__logo" src="./images/logo.png" alt="logo">
-        <div class="header__container">
-            <h1 class="header__title">FIND BEST EVENTS<br> AROUND THE WORLD</h1>
-            <div class="header__box">
-                <div class="header__input">
-                    <input class="header__content" type="text" placeholder="Start searching">
-                    <img class="header__look" src="./images/Vector(4).svg">
-                </div>
-                <div class="header__select-wrapper">
-                    <select class="header__select" name="country">
-                        <option value="" disabled selected>Choose country</option>
-                        <option value="Afghanistan">Afghanistan</option>
-                        <option value="Albania">Albania</option>
-                    </select>
-                    <img class="header__select-arrow" src="./images/Polygon1.svg">
-                </div>
-            </div>
-        </div>
-    </header>
-    <main class="main">
-        <section class="events">
-            <div class="events__container" data-modal="eurovision">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/eurovision.png"></a>
-                <h4 class="events__boom-box-title">Eurovision 2021 finals!</h4>
-                <p class="events__boom-box-data">2021-05-13</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg"> of Ukraine</p>
-            </div>
-            <div class="events__container" data-modal="atlas">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/black_eyed.png"></a>
-                <h4 class="events__boom-box-title">Atlas Weekend</h4>
-                <p class="events__boom-box-data">2021-06-09</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg">VDNH</p>
-            </div>
-            <div class="events__container" data-modal="lp">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/lp.png"></a>
-                <h4 class="events__boom-box-title">LP</h4>
-                <p class="events__boom-box-data">2021-07-27</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg">Palace of Ukraine</p>
-            </div>
-            <div class="events__container" data-modal="monatik">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/monatik.png"></a>
-                <h4 class="events__boom-box-title">MONATIK</h4>
-                <p class="events__boom-box-data">2021-07-17</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg">VDNH</p>
-            </div>
-            <div class="events__container" data-modal="eurovision">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/eurovision.png"></a>
-                <h4 class="events__boom-box-title">Eurovision 2021 finals!</h4>
-                <p class="events__boom-box-data">2021-05-13</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg"> of Ukraine</p>
-            </div>
-            <div class="events__container" data-modal="atlas">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/black_eyed.png"></a>
-                <h4 class="events__boom-box-title">Atlas Weekend</h4>
-                <p class="events__boom-box-data">2021-06-09</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg">VDNH</p>
-            </div>
-            <div class="events__container" data-modal="lp">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/lp.png"></a>
-                <h4 class="events__boom-box-title">LP</h4>
-                <p class="events__boom-box-data">2021-07-27</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg">Palace of Ukraine</p>
-            </div>
-            <div class="events__container" data-modal="monatik">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/monatik.png"></a>
-                <h4 class="events__boom-box-title">MONATIK</h4>
-                <p class="events__boom-box-data">2021-07-17</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg">VDNH</p>
-            </div>
-            <div class="events__container" data-modal="eurovision">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/eurovision.png"></a>
-                <h4 class="events__boom-box-title">Eurovision 2021 finals!</h4>
-                <p class="events__boom-box-data">2021-05-13</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg"> of Ukraine</p>
-            </div>
-            <div class="events__container" data-modal="atlas">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/black_eyed.png"></a>
-                <h4 class="events__boom-box-title">Atlas Weekend</h4>
-                <p class="events__boom-box-data">2021-06-09</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg">VDNH</p>
-            </div>
-            <div class="events__container" data-modal="lp">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/lp.png"></a>
-                <h4 class="events__boom-box-title">LP</h4>
-                <p class="events__boom-box-data">2021-07-27</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg">Palace of Ukraine</p>
-            </div>
-            <div class="events__container" data-modal="monatik">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/monatik.png"></a>
-                <h4 class="events__boom-box-title">MONATIK</h4>
-                <p class="events__boom-box-data">2021-07-17</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg">VDNH</p>
-            </div>
-            <div class="events__container" data-modal="eurovision">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/eurovision.png"></a>
-                <h4 class="events__boom-box-title">Eurovision 2021 finals!</h4>
-                <p class="events__boom-box-data">2021-05-13</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg"> of Ukraine</p>
-            </div>
-            <div class="events__container" data-modal="atlas">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/black_eyed.png"></a>
-                <h4 class="events__boom-box-title">Atlas Weekend</h4>
-                <p class="events__boom-box-data">2021-06-09</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg">VDNH</p>
-            </div>
-            <div class="events__container" data-modal="lp">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/lp.png"></a>
-                <h4 class="events__boom-box-title">LP</h4>
-                <p class="events__boom-box-data">2021-07-27</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg">Palace of Ukraine</p>
-            </div>
-            <div class="events__container" data-modal="monatik">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/monatik.png"></a>
-                <h4 class="events__boom-box-title">MONATIK</h4>
-                <p class="events__boom-box-data">2021-07-17</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg">VDNH</p>
-            </div>
-            <div class="events__container" data-modal="eurovision">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/eurovision.png"></a>
-                <h4 class="events__boom-box-title">Eurovision 2021 finals!</h4>
-                <p class="events__boom-box-data">2021-05-13</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg"> of Ukraine</p>
-            </div>
-            <div class="events__container" data-modal="atlas">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/black_eyed.png"></a>
-                <h4 class="events__boom-box-title">Atlas Weekend</h4>
-                <p class="events__boom-box-data">2021-06-09</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg">VDNH</p>
-            </div>
-            <div class="events__container" data-modal="lp">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/lp.png"></a>
-                <h4 class="events__boom-box-title">LP</h4>
-                <p class="events__boom-box-data">2021-07-27</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg">Palace of Ukraine</p>
-            </div>
-            <div class="events__container" data-modal="monatik">
-                <a href="#" class="events__link"><img class="events__boom-box" src="./images/monatik.png"></a>
-                <h4 class="events__boom-box-title">MONATIK</h4>
-                <p class="events__boom-box-data">2021-07-17</p>
-                <p class="events__boom-box-where"><img src="./images/Vector(5).svg">VDNH</p>
-            </div>
-        </section>
-        <section class="end">
-            <p class="end__text">© 2021 | All Rights Reserved | Developed with ♥️ by GoIT Students</p>
-        </section>
-    </main>
-    <div class="modal" id="eurovision-modal">
-         <div class="modal__content">
-            <span class="modal__close">×</span>
-            <div class="modal__logo">
-                <img src="./images/black_eyed.png" alt="Atlas Weekend Logo">
-            </div>
-            <div class="modal__main">
-                <div class="modal__left">
-                    <img class="modal__artist-image" src="./images/pic (1).png" alt="The Black Eyed Peas">
-                </div>
-                <div class="modal__right">
-                    <div class="modal__info">
-                        <h2>INFO</h2>
-                        <p>Atlas Weekend is the largest music festival in Ukraine. More than 200 artists will create a proper music festival atmosphere on 10 stages</p>
-                    </div>
-                    <div class="modal__when">
-                        <h3>WHEN</h3>
-                        <p>2021-06-09</p>
-                        <p>20:00 (Kyiv/Ukraine)</p>
-                    </div>
-                    <div class="modal__where">
-                        <h3>WHERE</h3>
-                        <p>Kyiv, Ukraine</p>
-                        <p>VDNH</p>
-                    </div>
-                    <div class="modal__who">
-                        <h3>WHO</h3>
-                        <p>The Black Eyed Peas</p>
-                    </div>
-                    <div class="modal__prices">
-                        <h3>PRICES</h3>
-                        <div class="modal__price-option">
-                            <p><img src="./images/ticket1.svg" alt="Standard Ticket" class="modal__ticket"> Standard 300–500 UAH</p>
-                            <button class="modal__buy-ticket">BUY TICKETS</button>
-                        </div>
-                        <div class="modal__price-option"> 
-                            <p><img src="./images/ticket1.svg" alt="VIP Ticket" class="modal__ticket"> VIP 3000–5000 UAH</p>
-                            <button class="modal__buy-ticket">BUY TICKETS</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="modal__more-author">MORE FROM THIS AUTHOR</button>
-        </div>
+<header class="header">
+  <img class="header__logo" src="./images/logo.png" alt="logo" />
+  <div class="header__container">
+    <h1 class="header__title">FIND BEST EVENTS<br /> AROUND THE WORLD</h1>
+    <div class="header__box">
+      <div class="header__input">
+        <input class="header__content" type="text" placeholder="Start searching" />
+        <img class="header__look" src="./images/Vector(4).svg" alt="Search Icon" />
+      </div>
+      <div class="header__select-wrapper">
+        <select class="header__select" name="country" aria-label="Select country">
+          <option value="" selected>All Countries</option>
+        </select>
+        <img class="header__select-arrow" src="./images/Polygon1.svg" alt="" aria-hidden="true" />
+      </div>
     </div>
-    <div class="modal" id="atlas-modal">
-        <div class="modal__content">
-            <span class="modal__close">×</span>
-            <div class="modal__logo">
-                <img src="./images/black_eyed.png" alt="Atlas Weekend Logo">
-            </div>
-            <div class="modal__main">
-                <div class="modal__left">
-                    <img class="modal__artist-image" src="./images/pic (1).png" alt="The Black Eyed Peas">
-                </div>
-                <div class="modal__right">
-                    <div class="modal__info">
-                        <h2>INFO</h2>
-                        <p>Atlas Weekend is the largest music festival in Ukraine. More than 200 artists will create a proper music festival atmosphere on 10 stages</p>
-                    </div>
-                    <div class="modal__when">
-                        <h3>WHEN</h3>
-                        <p>2021-06-09</p>
-                        <p>20:00 (Kyiv/Ukraine)</p>
-                    </div>
-                    <div class="modal__where">
-                        <h3>WHERE</h3>
-                        <p>Kyiv, Ukraine</p>
-                        <p>VDNH</p>
-                    </div>
-                    <div class="modal__who">
-                        <h3>WHO</h3>
-                        <p>The Black Eyed Peas</p>
-                    </div>
-                    <div class="modal__prices">
-                        <h3>PRICES</h3>
-                        <div class="modal__price-option">
-                            <p><img src="./images/ticket1.svg" alt="Standard Ticket" class="modal__ticket"> Standard 300–500 UAH</p>
-                            <button class="modal__buy-ticket">BUY TICKETS</button>
-                        </div>
-                        <div class="modal__price-option"> 
-                            <p><img src="./images/ticket1.svg" alt="VIP Ticket" class="modal__ticket"> VIP 3000–5000 UAH</p>
-                            <button class="modal__buy-ticket">BUY TICKETS</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="modal__more-author">MORE FROM THIS AUTHOR</button>
-        </div>
+  </div>
+</header>
+
+<main class="main">
+  <section class="events" id="events-container" aria-live="polite" aria-busy="false"></section>
+  <section class="pagination" id="pagination-container" aria-label="Pagination"></section>
+  <section class="end">
+    <p class="end__text">© 2021 | All Rights Reserved | Developed with ♥️ by GoIT Students</p>
+  </section>
+</main>
+
+<div class="modal" id="event-modal-template" style="display:none;" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modalTitle" tabindex="-1">
+  <div class="modal__content">
+    <button class="modal__close" aria-label="Close modal">×</button>
+    <div class="modal__logo">
+      <img src="./images/placeholder.png" alt="Event Logo" />
     </div>
-    <div class="modal" id="lp-modal">
-        <div class="modal__content">
-            <span class="modal__close">×</span>
-            <h2>LP</h2>
-            <p>Date: 2021-07-27</p>
-            <p>Location: Palace of Ukraine</p>
+    <div class="modal__main">
+      <div class="modal__left">
+        <img class="modal__artist-image" src="./images/placeholder.png" alt="Event Image" />
+      </div>
+      <div class="modal__right">
+        <div class="modal__info">
+          <h2 id="modalTitle">INFO</h2>
+          <p></p>
         </div>
-    </div>
-    <div class="modal" id="monatik-modal">
-        <div class="modal__content">
-            <span class="modal__close">×</span>
-            <h2>MONATIK</h2>
-            <p>Date: 2021-07-17</p>
-            <p>Location: VDNH</p>
+        <div class="modal__when">
+          <h3>WHEN</h3>
+          <p></p>
+          <p></p>
         </div>
+        <div class="modal__where">
+          <h3>WHERE</h3>
+          <p></p>
+          <p></p>
+        </div>
+        <div class="modal__who">
+          <h3>WHO</h3>
+          <p></p>
+        </div>
+        <div class="modal__prices">
+          <h3>PRICES</h3>
+          <div class="modal__price-option">
+            <p><img src="./images/ticket1.svg" alt="Standard Ticket" class="modal__ticket" /> Standard TBD</p>
+            <button class="modal__buy-ticket" type="button">BUY TICKETS</button>
+          </div>
+          <div class="modal__price-option">
+            <p><img src="./images/ticket1.svg" alt="VIP Ticket" class="modal__ticket" /> VIP TBD</p>
+            <button class="modal__buy-ticket" type="button">BUY TICKETS</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <script src="./js/script.js"></script>
+    <button class="modal__more-author" type="button">MORE FROM THIS AUTHOR</button>
+  </div>
+</div>
+
+<script src="./js/script.js"></script>
 </body>
 </html>
