@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </a>
         <h4 class="events__boom-box-title">${event.name || 'Untitled Event'}</h4>
         <p class="events__boom-box-data">${event.dates?.start?.localDate || 'TBD'}</p>
-        <p class="events__boom-box-where"><img src="./images/Vector(5).svg">${event._embedded?.venues?.[0]?.name || 'TBD'}</p>
+        <p class="events__boom-box-where"><img src="./images/vectorm.svg">${event._embedded?.venues?.[0]?.name || 'TBD'}</p>
       `;
       eventsContainer.appendChild(container);
     });
